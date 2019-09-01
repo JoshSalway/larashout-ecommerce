@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use App\Setting;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\
+use Illuminate\Support\Facades\Schema;
 use League\Flysystem\Config;
 
 class SettingServiceProvider extends ServiceProvider
