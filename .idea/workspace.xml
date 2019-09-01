@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="25b7647a-e1bf-4fa1-aa99-9b7b6f8033b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/settings/includes/analytics.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/settings/includes/analytics.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/settings/includes/footer_seo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/settings/includes/footer_seo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/settings/includes/logo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/settings/includes/logo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/settings/includes/payments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/settings/includes/payments.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/settings/includes/social_links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/settings/includes/social_links.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567252334491</updated>
       <workItem from="1567252337192" duration="6936000" />
-      <workItem from="1567312073735" duration="6181000" />
+      <workItem from="1567312073735" duration="6947000" />
     </task>
     <servers />
   </component>
