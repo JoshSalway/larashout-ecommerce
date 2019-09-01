@@ -4,8 +4,6 @@ namespace App\Traits;
 
 trait FlashMessages
 {
-    $model = 'infoMessages';
-
     protected $errorMessages = [];
 
     protected $infoMessages = [];
