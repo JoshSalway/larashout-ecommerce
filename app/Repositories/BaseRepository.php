@@ -35,7 +35,7 @@ class BaseRepository implements BaseContract
         return $this->model-$this->find($id);
     }
 
-    public function findOneOrFail(array $data)
+    public function findOneOrFail(int $id)
     {
         return $this->model->findOrFail($id);
     }
@@ -51,6 +51,11 @@ class BaseRepository implements BaseContract
     }
 
     public function findOneByOrFail(array $data)
+    {
+        return $this->model->find($id)->delete();
+    }
+
+    public function delete(int $id) : bool
     {
         return $this->model->find($id)->delete();
     }

@@ -3,6 +3,7 @@
 use App\Category;
 use Illuminate\Database\Seeder;
 
+
 class CategoriesTableSeeder extends Seeder
 {
     /**
@@ -19,6 +20,6 @@ class CategoriesTableSeeder extends Seeder
             'menu' => 0,
         ]);
 
-        factory('App\Category', 10)-create();
+        factory('App\Category', 10)->create();
     }
 }

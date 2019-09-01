@@ -29,7 +29,7 @@
             <div class="widget-small warning coloured-icon">
                 <i class="icon fa fa-files-o fa-3x"></i>
                 <div class="info">
-                    <h4>Uploades</h4>
+                    <h4>Uploads</h4>
                     <p><b>10</b></p>
                 </div>
             </div>
