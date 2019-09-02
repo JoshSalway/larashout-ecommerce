@@ -32,7 +32,7 @@ class BaseRepository implements BaseContract
 
     public function find(int $id)
     {
-        return $this->model-$this->find($id);
+        return $this->model->$this->find($id);
     }
 
     public function findOneOrFail(int $id)
