@@ -15,6 +15,11 @@ class AttributeValue extends Model
     protected $casts = [
         'attribute_id' => 'integer',
     ];
+
+    public function attribute()
+    {
+        return $this->belongsTo(Attribute::class);
+    }
 }
 
 
