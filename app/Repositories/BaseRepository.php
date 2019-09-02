@@ -52,7 +52,7 @@ class BaseRepository implements BaseContract
 
     public function findOneByOrFail(array $data)
     {
-        return $this->model->find($id)->delete();
+        return $this->model->where($data)->firstOrFail();
     }
 
     public function delete(int $id) : bool

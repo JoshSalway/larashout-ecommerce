@@ -100,4 +100,13 @@ class CategoryRepository extends BaseRepository implements CategoryContract
 
         return $category;
     }
+
+    public function edit($id)
+    {
+        $targetCategory = $this->categoryRepository->findCategoryById($id);
+        $categories = $this->categoryRepository->listCategories();
+
+        $this->setPageTitle('Categories', 'Edit Category : ',$targetCategory->name);
+        return view('admin.categories.edit', compact('categories', 'targetCategory'));
+    }
 }
