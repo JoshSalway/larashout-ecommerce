@@ -4,6 +4,7 @@ namespace App\Repositories;
 
 use App\Attribute;
 use App\Contracts\AttributeContract;
+use http\Env\Request;
 use Illuminate\Database\QueryException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
